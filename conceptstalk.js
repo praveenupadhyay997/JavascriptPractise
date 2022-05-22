@@ -168,3 +168,30 @@
 // }
 // funcRecursive(user,"user")
 // console.log(finalObject)
+
+// 
+// let nameString = 'webmaster'
+// console.log(nameString.split('').sort().reverse().join(''))
+
+
+// let nameString = 'aeiouAEIOU'
+// let count = 0;
+// function vowelCount(str){
+//     str.split('').forEach(x =>{
+//         if(nameString.indexOf(x) != -1)
+//         count++
+//     })
+//     return count
+// }
+
+// console.log(vowelCount('parrotuliprestapu'))
+
+// var strForCapitalization = 'the quick brown fox jump over lazy fox'
+// var strArray = strForCapitalization.split(' ')
+// var transformedString =[]
+// strArray.forEach(x => {
+//     var wordArray = x.split('')
+//     transformedString.push(wordArray[0].toUpperCase()+x.slice(1))
+//     return wordArray
+// })
+// console.log(transformedString.join(' '))
